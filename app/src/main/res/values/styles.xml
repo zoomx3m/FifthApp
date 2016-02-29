@@ -9,34 +9,45 @@
     </style>
 
 
-    <style name="TextStyle">
-        <item name="android:textSize">20sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/colorBlack</item>
-    </style>
-
-    <style name="TextNumStyle">
+    <style name="EditTextToStyle">
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">70sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:textColor">@color/colorTextButton</item>
-
     </style>
 
-    <style name="TextHelpStyle">
+
+    <style name="EditTextToStyle.EditTextSubStyle">
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:gravity">center</item>
-        <item name="android:padding">5dp</item>
-        <item name="android:textColor">@color/colorBlack</item>
-        <item name="android:textSize">22sp</item>
+        <item name="android:layout_height">70sp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorTextButton</item>
     </style>
 
-    <style name="TextButtonStyle">
+
+    <style name="EditTextMesStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:lines">4</item>
+    </style>
+
+
+    <style name="btnSendStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">22sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:clickable">true</item>
     </style>
 
+    <style name="btnSendStyle.btnCallStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:clickable">true</item>
+    </style>
 
     <style name="TextResultStyle">
         <item name="android:layout_width">fill_parent</item>
@@ -45,23 +56,6 @@
         <item name="android:padding">5dp</item>
         <item name="android:textColor">@color/colorBlack</item>
         <item name="android:textSize">22sp</item>
-    </style>
-
-    <style name="TextHelpStyleLand">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/colorBlack</item>
-        <item name="android:gravity">center</item>
-        <item name="android:padding">5dp</item>
-        <item name="android:textSize">22sp</item>
-    </style>
-
-
-    <style name="TextNummStyleLand">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/colorTextButton</item>
-
     </style>
 
 

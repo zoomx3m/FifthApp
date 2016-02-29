@@ -6,35 +6,28 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
 
-
-
     <EditText
         android:id="@+id/Edit_1st"
-        android:layout_width="fill_parent"
-        android:layout_height="70sp"
-        android:hint="@string/To_send"
-        android:textColor="@color/colorTextButton"
-        android:textSize="25sp" />
+        style="@style/EditTextToStyle"
+        android:hint="@string/To_send"/>
 
     <EditText
         android:id="@+id/Edit_2nd"
+        style="@style/EditTextToStyle.EditTextSubStyle"
         android:layout_width="fill_parent"
         android:layout_height="70sp"
-        android:layout_below="@+id/Edit_1st"
-        android:hint="@string/Theme"
+        android:textSize="25sp"
         android:textColor="@color/colorTextButton"
-        android:textSize="25sp" />
+        android:layout_below="@+id/Edit_1st"
+        android:hint="@string/Theme"/>
 
     <EditText
         android:id="@+id/Edit_3th"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
+        style="@style/EditTextMesStyle"
         android:layout_below="@+id/Edit_2nd"
-        android:textDirection="firstStrong"
         android:hint="@string/Message_text"
-        android:gravity="start"
-        android:textSize="25sp"
-        android:lines="4"/>
+        android:textDirection="firstStrong"
+        android:gravity="start"/>
 
     <LinearLayout
         android:id="@+id/LinLay"
@@ -46,25 +39,16 @@
 
         <Button
             android:id="@+id/button_send"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:clickable="true"
-            android:layout_weight="1"
+            style="@style/btnSendStyle"
             android:layout_marginStart="0dp"
             android:text="@string/send_message"/>
 
         <Button
             android:id="@+id/button_call"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:clickable="true"
-            android:layout_weight="1"
+            style="@style/btnSendStyle.btnCallStyle"
             android:layout_marginEnd="0dp"
             android:text="@string/call"/>
 
     </LinearLayout>
-
 
 </RelativeLayout>
