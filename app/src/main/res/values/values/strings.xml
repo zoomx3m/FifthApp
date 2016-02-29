@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ThirdApp</string>
+    <string name="add_number">add number</string>
+    <string name="equil"> = </string>
+    <string name="Print_first_number">Print first number</string>
+    <string name="Number">Text_1</string>
+    <string name="Button1"> + </string>
+    <string name="Button2"> - </string>
+    <string name="add_n1">Enter 1st number</string>
+    <string name="add_n2">Enter 2nd number</string>
+    <string name="add_eq">Результат:</string>
+    <string name="Enter_value_1">Enter value 1:</string>
+    <string name="Enter_value_2">Enter value 2:</string>
+    <string name="Button3">=</string>
+    <string name="b_1">button 1</string>
+    <string name="First_number">First number:</string>
+    <string name="Second_number">Second number:</string>
+    <string name="plus">Plus (+)</string>
+    <string name="minus">Minus (-)</string>
+    <string name="Result">Result:</string>
+    <string name="Result1">Result</string>
+
+
+</resources>
